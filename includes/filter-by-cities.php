@@ -12,7 +12,6 @@ function mkrapel_pe_filters_by_cities_method() {
 
             /**
              * Constructor for your shipping class
-             *
              * @access public
              * @return void
              */
@@ -20,7 +19,7 @@ function mkrapel_pe_filters_by_cities_method() {
                 parent::__construct($instance_id);
                 $this->id                 	= 'mkrapel_pe_filters_by_cities_shipping_method';
                 $this->instance_id 			= absint( $instance_id );
-                $this->method_title       	= __( 'Despacho por Distrito');
+                $this->method_title       	= __( 'Despacho a Domicilio');
                 $this->method_description 	= __( 'Selecciona los Distritos del Departamento ingresado como <strong>"Zona de Envío"</strong>, recuerda que el <strong>Nombre del Tipo de Envío</strong> es el que se mostrará a tus compradores al momento de seleccionar el medio de pago deseado. <strong>Recuerda que seleccionar "No" como "Método de Envío Único" permites que puedan funcionar los otros tipos de Métodos de Envío establecidos con anterioridad</strong>');
                 $this->supports = array(
                     'settings',
@@ -154,8 +153,7 @@ function mkrapel_pe_filters_by_cities_method() {
             public function showCitiesRegions() {
                 if (!isset($_REQUEST['instance_id']))
                     return array();
-				$ins_id = sanitize_text_field( $_REQUEST['instance_id'] ); /** Change based info of WordPress **/
-				$ins = WC_Shipping_Zones::get_zone_by( 'instance_id', $ins_id );
+				$ins = WC_Shipping_Zones::get_zone_by( 'instance_id', $_REQUEST['instance_id'] );
                 $data = $ins->get_data();
                 if (!isset($data['zone_locations']))
                     return array();

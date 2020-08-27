@@ -9,7 +9,7 @@
 global $places;
 
 $places['PE'] = array(
-	'PE_AMA' => array(
+	'AMA' => array(
 		'Aramango',
 		'Asunción',
 		'Bagua Grande',
@@ -95,7 +95,7 @@ $places['PE'] = array(
 		'Yambrasbamba',
 		'Yamón'
 	),
-	'PE_ANC' => array(
+	'ANC' => array(
 		'Abelardo Pardo Lezameta',
 		'Acas',
 		'Aco',
@@ -263,7 +263,7 @@ $places['PE'] = array(
 		'Yupán',
 		'Yuracmarca'
 	),
-	'PE_APU' => array(
+	'APU' => array(
 		'Abancay',
 		'Anccohuayllo',
 		'Andahuaylas',
@@ -349,7 +349,7 @@ $places['PE'] = array(
 		'Virundo',
 		'Yanaca',
 	),
-	'PE_ARE' => array(
+	'ARE' => array(
 		'Acarí',
 		'Achoma',
 		'Alca',
@@ -460,7 +460,7 @@ $places['PE'] = array(
 		'Yauca',
 		'Yura'
 	),
-	'PE_AYA' => array(
+	'AYA' => array(
 		'Accomarca',
 		'Acocro',
 		'Acos Vinchos',
@@ -581,7 +581,7 @@ $places['PE'] = array(
 		'Vinchos',
 		'Vischongo'
 	),
-	'PE_CAJ' => array(
+	'CAJ' => array(
 		'Andabamba',
 		'Anguía',
 		'Asunción',
@@ -710,7 +710,7 @@ $places['PE'] = array(
 		'Yauyucan',
 		'Yonán'
 	),
-	'PE_CUS' => array(
+	'CUS' => array(
 		'Accha',
 		'Acomayo',
 		'Acopía',
@@ -824,7 +824,7 @@ $places['PE'] = array(
 		'Yucay',
 		'Zurite'
 	),
-	'PE_HUV' => array(
+	'HUV' => array(
 		'Acobamba',
 		'Acobambilla',
 		'Acoria',
@@ -926,7 +926,7 @@ $places['PE'] = array(
 		'Vilca',
 		'Yauli'
 	),
-	'PE_HUC' => array(
+	'HUC' => array(
 		'Amarilis',
 		'Ambo',
 		'Aparicio Pomares',
@@ -1012,7 +1012,7 @@ $places['PE'] = array(
 		'Yarumayo',
 		'Yuyapichis'
 	),
-	'PE_ICA' => array(
+	'ICA' => array(
 		'Alto Larán',
 		'Changuillo',
 		'Chavín',
@@ -1056,7 +1056,7 @@ $places['PE'] = array(
 		'Vista Alegre',
 		'Yauca del Rosario'
 	),
-	'PE_JUN' => array(
+	'JUN' => array(
 		'Aco',
 		'Acobamba',
 		'Acolla',
@@ -1180,7 +1180,7 @@ $places['PE'] = array(
 		'Yauli',
 		'Yauyos'
 	),
-	'PE_LAL' => array(
+	'LAL' => array(
 		'Agallpampa',
 		'Angasmarca',
 		'Ascope',
@@ -1265,7 +1265,7 @@ $places['PE'] = array(
 		'Víctor Larco Herrera',
 		'Virú'
 	),
-	'PE_LAM' => array(
+	'LAM' => array(
 		'Cañaris',
 		'Cayaltí',
 		'Chiclayo',
@@ -1305,7 +1305,7 @@ $places['PE'] = array(
 		'Túcume',
 		'Tumán'
 	),
-	'PE_LIM' => array(
+	'LIM' => array(
 		'Alis',
 		'Ámbar',
 		'Andajes',
@@ -1435,7 +1435,7 @@ $places['PE'] = array(
 		'Yauyos',
 		'Zúñiga'
 	),
-	'PE_LMA' => array(
+	'LMA' => array(
 		'Ancón',
 		'Ate',
 		'Barranco',
@@ -1480,7 +1480,7 @@ $places['PE'] = array(
 		'Villa El Salvador',
 		'Villa María del Triunfo'
 	),
-	'PE_LOR' => array(
+	'LOR' => array(
 		'Alto Nanay',
 		'Alto Tapiche',
 		'Andoas',
@@ -1535,7 +1535,7 @@ $places['PE'] = array(
 		'Yavarí',
 		'Yurimaguas'
 	),
-	'PE_MDD' => array(
+	'MDD' => array(
 		'Fitzcarrald',
 		'Huepetuhe',
 		'Iberia',
@@ -1548,7 +1548,7 @@ $places['PE'] = array(
 		'Tahuamanu',
 		'Tambopata'
 	),
-	'PE_MOQ' => array(
+	'MOQ' => array(
 		'Carumas',
 		'Chojata',
 		'Coalaque',
@@ -1570,7 +1570,7 @@ $places['PE'] = array(
 		'Ubinas',
 		'Yunga'
 	),
-	'PE_PAS' => array(
+	'PAS' => array(
 		'Chacayán',
 		'Chaupimarca',
 		'Chontabamba',
@@ -1601,7 +1601,7 @@ $places['PE'] = array(
 		'Yanacancha',
 		'Yanahuanca'
 	),
-	'PE_PIU' => array(
+	'PIU' => array(
 		'Amotape',
 		'Arenal',
 		'Ayabaca',
@@ -1668,7 +1668,7 @@ $places['PE'] = array(
 		'Vichayal',
 		'Yamango'
 	),
-	'PE_PUN' => array(
+	'PUN' => array(
 		'Achaya',
 		'Ácora',
 		'Ajoyani',
@@ -1780,7 +1780,7 @@ $places['PE'] = array(
 		'Yunguyo',
 		'Zepita'
 	),
-	'PE_SAM' => array(
+	'SAM' => array(
 		'Agua Blanca',
 		'Alberto Leveau',
 		'Alonso de Alvarado',
@@ -1859,7 +1859,7 @@ $places['PE'] = array(
 		'Yuracyacu',
 		'Zapatero'
 	),
-	'PE_TAC' => array(
+	'TAC' => array(
 		'Alto de la Alianza',
 		'Cairani',
 		'Calana',
@@ -1889,7 +1889,7 @@ $places['PE'] = array(
 		'Tarucachi',
 		'Ticaco'
 	),
-	'PE_TUM' => array(
+	'TUM' => array(
 		'Aguas Verdes',
 		'Canoas de Punta Sal',
 		'Casitas',
@@ -1904,7 +1904,7 @@ $places['PE'] = array(
 		'Zarumilla',
 		'Zorritos'
 	),
-	'PE_UCA' => array(
+	'UCA' => array(
 		'Alexander von Humboldt',
 		'Callería',
 		'Campoverde',
@@ -1923,7 +1923,7 @@ $places['PE'] = array(
 		'Yarinacocha',
 		'Yurúa'
 	),
-	'PE_CAL' => array(
+	'CAL' => array(
 		'Bellavista',
 		'Callao',
 		'Carmen de La Legua-Reynoso',

@@ -49,10 +49,10 @@ $settings =  array(
         'desc_tip'		=> true
     ),
     'cities' => array(
-        'title' => __('Distritos/Ciudades/Municipios'),
+        'title' => __('Distritos'),
         'type' => 'multiselect',
         'class'       => 'wc-enhanced-select',
-        'description' => __( 'Seleccione los Distritos/Ciudades/Municipios que hace referencia al Departamento/Región/Provincia que ha agregado anteriormente como Zona de Envío' ),
+        'description' => __( 'Seleccione los Distritos que hace referencia al Departamento que ha agregado anteriormente como Zona de Envío' ),
         'options' => $this->showCitiesRegions(),
         'desc_tip'    => true,
     )

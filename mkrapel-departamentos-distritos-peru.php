@@ -8,10 +8,10 @@
  * that starts the plugin.
  *
  *
- * Plugin Name: Departamentos y Distritos de Perú
+ * Plugin Name: Departamentos y Distritos de Perú para WooCommerce
  * Plugin URI: https://marketingrapel.cl/
  * Description: Plugin con los Departamentos y Distritos de Perú actualizado al 2020, permitiendo usar los Distritos para establecer las Zonas de Despacho en la sección de Envíos de WooCommerce. Retira campos de Código Postal y Línea 2 de la Dirección en el CheckOut, junto con nueva distribución visible.
- * Version: 3.0
+ * Version: 3.2
  * Requires at least: 5.0
  * Requires PHP: 5.6
  * Author: Marketing Rapel
@@ -20,18 +20,19 @@
  * Text Domain: mkrapel-departamentos-distritos-peru
  * Domain Path: /languages
  * Tested up to: 5.4
+ * WC requires at least: 4.0.0
+ * WC tested up to: 4.3.0
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
+add_action('plugins_loaded','mkrapel_pe_departamentos_distritos_peru_init',1);
 add_filter('woocommerce_checkout_fields', 'mkrapel_pe_nombre_campos');
 add_filter('woocommerce_checkout_fields', 'mkrapel_pe_campos_quitados');
 add_filter('woocommerce_checkout_fields', 'mkrapel_pe_campos_class');
 add_filter('woocommerce_checkout_fields', 'mkrapel_pe_campos_orden');
-
-add_action('plugins_loaded','mkrapel_pe_departamentos_distritos_peru_init',1);
 
 function mkrapel_pe_smp_notices($classes, $notice){
     ?>

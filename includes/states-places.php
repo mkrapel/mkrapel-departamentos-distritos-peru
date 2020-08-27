@@ -1,7 +1,7 @@
 <?php
 
 class MkRapel_Departamentos_Distritos_PE {
-	const VERSION = '1.1.29';
+	const VERSION = '2.0';
 	private static $places;
 
 	/* Construct class */
@@ -21,15 +21,15 @@ class MkRapel_Departamentos_Distritos_PE {
 	
 	/* WC States init */
 	public function init_states() {
-		add_filter('woocommerce_states', array($this, 'wc_states'));
+		add_filter('woocommerce_states', array($this, 'mkrapel_pe_states'));
 	}
 	
 	/* WC States init */
 	public function init_places() {
-		add_filter( 'woocommerce_billing_fields', array( $this, 'wc_billing_fields' ), 10, 2 );
-		add_filter( 'woocommerce_shipping_fields', array( $this, 'wc_shipping_fields' ), 10, 2 );
-		add_filter( 'woocommerce_form_field_city', array( $this, 'wc_form_field_city' ), 10, 4 );
-		add_action( 'wp_enqueue_scripts', array( $this, 'load_scripts' ) );
+		add_filter( 'woocommerce_billing_fields', array( $this, 'mkrapel_pe_billing_fields' ), 10, 2 );
+		add_filter( 'woocommerce_shipping_fields', array( $this, 'mkrapel_pe_shipping_fields' ), 10, 2 );
+		add_filter( 'woocommerce_form_field_city', array( $this, 'mkrapel_pe_form_field_city' ), 10, 4 );
+		add_action( 'wp_enqueue_scripts', array( $this, 'mkrapel_pe_load_scripts' ) );
 	}
 	
 	/*
@@ -37,7 +37,7 @@ class MkRapel_Departamentos_Distritos_PE {
 	* @param mixed $states
 	* @return mixed
 	*/
-	public function  wc_states($states) {
+	public function  mkrapel_pe_states($states) {
 		//get countries allowed by store owner
 		$allowed = self::get_store_allowed_countries();
 
@@ -57,7 +57,7 @@ class MkRapel_Departamentos_Distritos_PE {
 	* @param mixed $country
 	* @return mixed
 	*/
-	public function wc_billing_fields( $fields, $country ) {
+	public function mkrapel_pe_billing_fields( $fields, $country ) {
 		$fields['billing_city']['type'] = 'city';
 		return $fields;
 	}
@@ -68,7 +68,7 @@ class MkRapel_Departamentos_Distritos_PE {
 	* @param mixed $country
 	* @return mixed
 	*/
-	public function wc_shipping_fields( $fields, $country ) {
+	public function mkrapel_pe_shipping_fields( $fields, $country ) {
 		$fields['shipping_city']['type'] = 'city';
 		return $fields;
 	}
@@ -81,7 +81,7 @@ class MkRapel_Departamentos_Distritos_PE {
 	* @param string $value
 	* @return mixed
 	*/
-	public function wc_form_field_city($field, $key, $args, $value ) {
+	public function mkrapel_pe_form_field_city($field, $key, $args, $value ) {
 		// Do we need a clear div?
 		if ( ( ! empty( $args['clear'] ) ) ) { $after = '<div class="clear"></div>'; } 
 		else { $after = ''; }
@@ -185,7 +185,7 @@ class MkRapel_Departamentos_Distritos_PE {
 	}
 	
 	/* Load scripts */
-	public function load_scripts() {
+	public function mkrapel_pe_load_scripts() {
 		if ( is_cart() || is_checkout() || is_wc_endpoint_url( 'edit-address' ) ) {
 			$city_select_path = self::get_plugin_url() . 'js/place-select.js';
 			wp_enqueue_script( 'wc-city-select', $city_select_path, array( 'jquery', 'woocommerce' ), self::VERSION, true );

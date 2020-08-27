@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Departamentos y Distritos de Perú\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-22 02:44+0000\n"
+"PO-Revision-Date: 2020-08-27 03:18+0000\n"
+"Last-Translator: Marketing Rapel\n"
+"Language-Team: Español de Chile\n"
+"Language: es_CL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.2; wp-5.4.2"
+
+#. Name of the plugin
+msgid "Departamentos y Distritos de Perú"
+msgstr "Departamentos y Distritos de Perú"
+
+#. Author URI of the plugin
+msgid "https://marketingrapel.cl"
+msgstr "https://marketingrapel.cl"
+
+#. URI of the plugin
+msgid "https://marketingrapel.cl/"
+msgstr "https://marketingrapel.cl/"
+
+#. Author of the plugin
+msgid "Marketing Rapel"
+msgstr "Marketing Rapel"
+
+#. Description of the plugin
+msgid ""
+"Plugin con los Departamentos y Distritos de Perú actualizado al 2020, "
+"permitiendo usar los Distritos para establecer las Zonas de Despacho en la "
+"sección de Envíos de WooCommerce. Retira campos de Código Postal y Línea 2 "
+"de la Dirección en el CheckOut, junto con nueva distribución visible."
+msgstr ""
+"Plugin con los Departamentos y Distritos de Perú actualizado al 2020, "
+"permitiendo usar los Distritos para establecer las Zonas de Despacho en la "
+"sección de Envíos de WooCommerce. Retira campos de Código Postal y Línea 2 "
+"de la Dirección en el CheckOut, junto con nueva distribución visible."
+
+#: mkrapel-departamentos-distritos-peru.php:72
+#, php-format
+msgid "Su Nombre"
+msgstr "Su Nombre"
+
+#: mkrapel-departamentos-distritos-peru.php:73
+#, php-format
+msgid "Sus Apellidos"
+msgstr "Sus Apellidos"
+
+#: mkrapel-departamentos-distritos-peru.php:74
+#, php-format
+msgid "Nombre de la Calle, Número, Depto, Local, Oficina"
+msgstr "Nombre de la Calle, Número, Depto, Local, Oficina"
+
+#: mkrapel-departamentos-distritos-peru.php:75
+#, php-format
+msgid "Digite su DNI"
+msgstr "Digite su DNI"
+
+#: mkrapel-departamentos-distritos-peru.php:76
+#, php-format
+msgid "Seleccione País"
+msgstr "Seleccione País"
+
+#: mkrapel-departamentos-distritos-peru.php:77
+#, php-format
+msgid "Seleccione Departamento"
+msgstr "Seleccione Departamento"
+
+#: mkrapel-departamentos-distritos-peru.php:78
+#, php-format
+msgid "Seleccione Distrito"
+msgstr "Seleccione Distrito"
+
+#: mkrapel-departamentos-distritos-peru.php:79
+#, php-format
+msgid "Su Email"
+msgstr "Su Email"
+
+#: mkrapel-departamentos-distritos-peru.php:80
+#, php-format
+msgid "Su Celular o Teléfono"
+msgstr "Su Celular o Teléfono"
+
+#: mkrapel-departamentos-distritos-peru.php:82
+#, php-format
+msgid "Dirección"
+msgstr "Dirección"
+
+#: mkrapel-departamentos-distritos-peru.php:83
+#, php-format
+msgid "DNI"
+msgstr "DNI"
+
+#: mkrapel-departamentos-distritos-peru.php:84
+#, php-format
+msgid "País"
+msgstr "País"
+
+#: mkrapel-departamentos-distritos-peru.php:85
+#, php-format
+msgid "Departamento"
+msgstr "Departamento"
+
+#: mkrapel-departamentos-distritos-peru.php:86
+#, php-format
+msgid "Distrito"
+msgstr "Distrito"

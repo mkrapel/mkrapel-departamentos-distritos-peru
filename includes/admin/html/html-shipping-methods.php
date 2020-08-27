@@ -7,7 +7,7 @@ $methods = array();
 
 ?>
     <tr valign="top">
-        <th colspan="2" scope="row" class="titledesc"><?php echo __( 'Filtro de envío configurado por métodos de Distritos/Ciudades/Municipios en todas las zonas de envío' ) ?></th>
+        <th colspan="2" scope="row" class="titledesc"><?php echo __( 'Filtro de envío configurado por métodos de Distritos en todas las zonas de envío' ) ?></th>
     </tr>
     <tr valign="top">
         <td colspan="2" class="forminp" id="<?php echo $this->id; ?>_rules_shipping_methods"><?php echo sprintf(__( 'This table shows <a href="%s">all shipping zones</a> and for each zone the shipping methods provided by this plugin.'), admin_url( 'admin.php?page=wc-settings&tab=shipping' ) ); ?>
@@ -38,7 +38,7 @@ $methods = array();
                             <ul>
                                 <?php
                                 foreach ($zone['shipping_methods'] as $method) {
-                                    if ($method->id == 'filters_by_cities_shipping_method') {
+                                    if ($method->id == 'mkrapel_pe_filters_by_cities_shipping_method') {
                                         $methodclass = ($method->enabled=='no')?'method_disabled':'method_enabled';
                                         $methodurl = admin_url(sprintf('admin.php?page=wc-settings&tab=shipping&instance_id=%d', $method->instance_id));
                                         ?>
@@ -52,7 +52,7 @@ $methods = array();
                             <ul>
                                 <?php
                                 foreach ($zone['shipping_methods'] as $method) {
-                                    if ($method->id != 'filters_by_cities_shipping_method') {
+                                    if ($method->id != 'mkrapel_pe_filters_by_cities_shipping_method') {
                                         $methodclass = ($method->enabled=='no')?'method_disabled':'method_enabled';
                                         ?>
                                         <li class="<?php echo $methodclass;?>"><?php echo $method->title; ?></li>
