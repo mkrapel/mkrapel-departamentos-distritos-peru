@@ -58,7 +58,7 @@ function mkrapel_pe_departamentos_distritos_peru_init(){
         add_action( 'woocommerce_shipping_init', 'mkrapel_pe_filters_by_cities_method' );
 		
         function mkrapel_pe_add_filters_by_cities_method( $methods ) {
-            $methods['mkrapel_pe_filters_by_cities_shipping_method'] = 'Filters_By_Cities_Method_PE';
+            $methods['mkrapel_pe_filters_by_cities_shipping_method'] = 'MkRapel_PE_Filters_By_Cities_Method';
             return $methods;
         }
         if ( is_admin() && 'plugins.php' == $pagenow && !defined( 'DOING_AJAX' ) ) {
