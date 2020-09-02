@@ -1,6 +1,8 @@
 <?php
 /**
- * Legacy flat rate settings. *
+ * Creado: PhpStorm
+ * Modificado: Marketing Rapel
+ * Versión: 3.2.2
  * @package WooCommerce\Shipping
  */
 
@@ -28,7 +30,7 @@ $settings =  array(
         'title' 		=> __( 'Nombre del Tipo de Envío', 'woocommerce' ),
         'type' 			=> 'text',
         'description' 	=> __( 'Esto controla el título que ve el usuario durante el pago. en el CheckOut.', 'woocommerce' ),
-        'default'		=> __( 'Filtro de envío por Distrito/Ciudad/Municipio', 'woocommerce' ),
+        'default'		=> __( 'Despacho a Domicilio PE', 'woocommerce' ),
         'desc_tip'		=> true
     ),
     'tax_status' => array(

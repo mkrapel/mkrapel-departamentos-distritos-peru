@@ -1,4 +1,9 @@
 <?php
+/**
+ * Creado: Marketing Rapel
+ * Modificado: Marketing Rapel
+ * Versión: 3.2.2
+ */
 
 class MkRapel_Departamentos_Distritos_PE {
 	const VERSION = '2.0';
@@ -37,7 +42,7 @@ class MkRapel_Departamentos_Distritos_PE {
 	* @param mixed $states
 	* @return mixed
 	*/
-	public function  mkrapel_pe_states($states) {
+	public function mkrapel_pe_states($states) {
 		//get countries allowed by store owner
 		$allowed = self::get_store_allowed_countries();
 

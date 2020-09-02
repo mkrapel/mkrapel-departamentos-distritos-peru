@@ -32,8 +32,8 @@ Puedes buscar este plugin directamente en el repositorio de WordPress desde la s
 
 1. Ingresar a WooCommerce > Ajustes > Envios.
 2. Agregar una nueva "Zona de Envío".
-3. Completar con los datos solicitados y al momento de seleccionar en "Añadir método de envío" se debe seleccionar la opción "Despacho a Domicilio", quedando con el título "Despacho a Domicilio".
-4. Editar Método de Envio "Despacho a Domicilio" para agregar las ciudades de la Provincia que estarán con sus respectivos valores de despacho.
+3. Completar con los datos solicitados y al momento de seleccionar en "Añadir método de envío" se debe seleccionar la opción "Envío por Distrito PE", quedando con el título "Despacho a Domicilio PE".
+4. Editar Método de Envio "Despacho a Domicilio PE" para agregar las ciudades de la Provincia que estarán con sus respectivos valores de despacho.
 5. Distritos disponibles según el Departamento seleccionado e ingresado como Zona de Envío principal, recuerda mantener en No la opción de Método de Envío Único por si deseas agregar nuevos métodos de envío al mismo Departamento.
 6. Disfruta del plugin.
 
@@ -53,9 +53,9 @@ Para el desarrollo de este plugin fue utilizada la información disponible en lo
 4. Zonas de Envío establecida para el Distrito seleccionada.
 5. Cambio de tipo de envío según la opción seleccionada.
 6. Zonas de Envío en WooCommerce.
-7. Configuración de la Zona de Envío según Departamento y seleccionando el método "Despacho por Distrito".
-8. Zona de Envío con el Método "Despacho a Domicilio".
-9. Configuración del Método "Despacho a Domicilio".
+7. Configuración de la Zona de Envío según Departamento y seleccionando el método "Envío por Distrito PE".
+8. Zona de Envío con el Método "Despacho a Domicilio PE".
+9. Configuración del Método "Despacho a Domicilio PE".
 10. Distritos disponibles según el Departamento seleccionado e ingresado como Zona de Envío principal.
 
 == Changelog ==
